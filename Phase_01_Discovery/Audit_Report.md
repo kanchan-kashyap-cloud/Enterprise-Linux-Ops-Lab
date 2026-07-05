@@ -5,9 +5,10 @@
 A baseline health check was performed on RHEL 10.2 production-grade instances. All critical infrastructure metrics (CPU, RAM, Storage) were audited to prevent resource bottlenecks.
 
 ## 2. Technical Execution Log
-* **Identity Verification:** `whoami`, `id` (Validated least-privilege security)
-* **Performance Baseline:** `lscpu`, `free -m`, `uptime` (Established server performance standards)
-* **Network Integrity:** `ip a` (Validated ens5 connectivity and routing)
+* **Identity:** `whoami`, `id`, `sudo -l` (Validated security & privilege levels)
+* **OS Baseline:** `uname -a`, `cat /etc/os-release` (OS & Kernel verification)
+* **Resource Health:** `lscpu`, `free -m`, `df -hT` (CPU, RAM, & Storage capacity audit)
+* **Connectivity:** `uptime`, `ip a` (Network & Uptime monitoring)
 
 ## 3. Peer Review Sign-off
 * **Lead Engineer:** Kunal Kashyap
