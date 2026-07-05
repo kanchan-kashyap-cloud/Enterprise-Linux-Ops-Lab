@@ -10,9 +10,9 @@ A baseline health check was performed on RHEL 10.2 production-grade instances. A
 * **Network Integrity:** `ip a` (Validated ens5 connectivity and routing)
 
 ## 3. Peer Review Sign-off
-* **Lead Engineer:** Kunal Kashyap
-* **Audit Lead:** Kanchan Kashyap
-* **Outcome:** Systems confirmed ready for Enterprise Bootstrap.
+* **Lead Auditor:** Kanchan Kashyap
+* **Technical Lead:** Kunal Kashyap
+* **Outcome:** System audit successful. All infrastructure parameters validated for production deployment.
 
 ---
 ### **Operational Handover Note (Email Draft)**
