@@ -24,3 +24,13 @@ A full-stack environment provisioning was performed on Rocky Linux 10 (RHEL 10.2
 * **Storage Infrastructure:** Custom mount points (/backup, /data) initialized.
 * **Container Engine:** Podman active and verified.
 * **Status:** System is now 'Enterprise-Ready' and compliant with standard deployment protocols.
+
+## Peer Audit & Operational Verification (Kanchan Kashyap)
+As the Security & Compliance Lead, the following peer-audit tasks were performed:
+
+* **Security Validation:** Verified `dnf` repository signatures and system-wide package integrity after the bootstrap process.
+* **Compliance Audit:** Cross-checked service configurations (`podman`, `httpd`, `nginx`) against production security baselines.
+* **Operational Integrity:** Conducted a post-deployment diagnostic audit using `nmap` and `ss -tuln` to ensure no unauthorized ports were exposed.
+* **Handover Validation:** Reviewed the bootstrap logs to ensure all custom storage paths (`/backup`, `/data`) met the enterprise access control requirements.
+
+*Sign-off: Infrastructure environment verified for production-readiness and compliant with internal security standards.*
